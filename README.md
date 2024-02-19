@@ -71,11 +71,11 @@ In this project, there are 4 packages located in the src/test/java directory.
 
 - In the 'RyanairBDD.steps' package, you will find the 'RyanairTest' class utilizing methods from the classes created in the 'PageObjects' package. While it is possible to consolidate all the code directly into this class, I have opted for separation to facilitate potential reuse in alternative test scenarios and to improve overall readability.
 
-In the src/test/java directory, you will find the search.feature,a scenario written in Gherkin, that provide a clear and understandable representation of test cases.
+In the src/test/java directory, you will find the searchAndBooking.feature,a scenario written in Gherkin, that provide a clear and understandable representation of test cases.
 
-![Captura de ecrã 2024-02-19 191855](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/e8cbd46f-f4bd-4e5c-90fd-0dc2ad9294ce)
+![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/ff75ddbe-1d6b-4a0c-8de6-f0d069fb087f)
 
-In the driver folder, you can locate the executable files for Chrome, Firefox, and Edge browsers.
+In the driver folder, you can locate the executable files for Chrome and Edge browsers.
 
 ![Captura de ecrã 2024-02-19 191935](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/2a3a61b0-fed1-4601-9eae-ea282f11f805)
 
@@ -87,5 +87,20 @@ Lastly, there is the pom.xml which serves for dependencies, build configurations
 
 ![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/f9d2a952-84aa-465d-aaa6-c91902529979)
 
+## Running Tests
+
+Ensure that the project is converted to TestNG, and then go to the project's root directory. Right-click on the project source, select 'Run As' and choose 'Maven Test'.
+
+![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/8bfae436-cbb4-4012-a0d9-cc5323fda172)
+
+
+## Report
+
+To view the results in Allure, open PowerShell and enter the command:
+
+```bash
+allure serve .\target\surefire-reports
+```
+![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/1e110ee4-d450-4b99-b97b-59d7b6945b9a)
 
 
