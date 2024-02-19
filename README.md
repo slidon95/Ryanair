@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the Ryanair Labs Technical Challenge test automation project! This project use Cucumber, Selenium(Java) , and Allure to perform end-to-end testing of a web application. 
+Welcome to the Ryanair Labs Technical Challenge test automation project. This project use Cucumber, Selenium(Java) , and Allure to perform end-to-end testing of a web application. 
 
 The primary objective of this project is to develop an automated test script for the Ryanair website (https://www.ryanair.com/ie/en/). The test script will cover the flight booking process, including initiating a search for flights, selecting the VALUE/BASIC fare option, bypassing the login process after fare selection, navigating through extras pages, selecting seats, adding 20kg bags to the booking, and ensuring the presence of a login popup before progressing to the payment stage. 
 
