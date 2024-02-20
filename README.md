@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the Ryanair Labs Technical Challenge test automation project. This project use Cucumber, Selenium(Java) , and Allure to perform end-to-end testing of a web application. 
+Welcome to the Ryanair Labs Technical Challenge test automation project. This project use Cucumber, Selenium(Java) and Allure to perform end-to-end testing of a web application. 
 
 The primary objective of this project is to develop an automated test script for the Ryanair website (https://www.ryanair.com/ie/en/). The test script will cover the flight booking process, including initiating a search for flights, selecting the VALUE/BASIC fare option, bypassing the login process after fare selection, navigating through extras pages, selecting seats, adding 20kg bags to the booking, and ensuring the presence of a login popup before progressing to the payment stage. 
 
@@ -17,6 +17,7 @@ Feature: Flight Search and Booking
 	    	Examples: 
 	      | browser  | departure | destination | date       | adults | children |
 	      | chrome   | DUB       | STN         | 20/3/2024  |  2     |  1       |
+	      | edge     | DUB       | STN         | 18/3/2025  |  3      | 2       |
 
 ```
 
@@ -77,7 +78,7 @@ In the src/test/java directory, you will find the searchAndBooking.feature,a sce
 
 In the driver folder, you can locate the executable files for Chrome and Edge browsers.
 
-![Captura de ecrã 2024-02-19 191935](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/2a3a61b0-fed1-4601-9eae-ea282f11f805)
+![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/cd536ee1-d15e-4485-ad73-bc56e36511f2)
 
 On the target directory, you'll find the surefire_report containing the Allure reports generated for the tests.
 
@@ -106,4 +107,11 @@ allure serve .\target\surefire-reports
 
 ## DEMO
 
-Amanha faço
+The dynamic automated test is designed for the DUB to STN flight. This allows you to include any desired number of children and adults, as well as choose a date within a range of one year and one month. This flexibility is based on the observation that purchasing a ticket is only feasible within this specific timeframe.
+
+https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/f8f21883-667a-4768-8cf7-f47b8e908814
+
+In the automated test, I have integrated error exceptions for both past dates and dates exceeding one year and one month into the future.
+
+https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/d3da5e97-ab8b-4ea6-9037-0ddd8c5598c3
+
