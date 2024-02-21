@@ -20,6 +20,11 @@ Feature: Flight Search and Booking
 	      | edge     | DUB       | STN         | 18/3/2025  |  3      | 2       |
 
 ```
+## Requirements
+
+- Java JDK 8 or higher
+- Maven
+- WebDriver for your preferred browser (Chrome and Edge)
 
 ## Installation
 
@@ -52,7 +57,7 @@ allure –version
 
 In this project, there are 4 packages located in the src/test/java directory. 
 
-![Captura de ecrã 2024-02-19 191728](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/dcaa77b4-b04e-41f8-9194-5e9d7e666e28)
+![image](https://github.com/slidon95/Ryanair/assets/132678833/7ec735c7-eeb5-4960-be0a-c20a9768bd03)
 
 
 - The 'Config' package is dedicated to browser configuration. 
@@ -74,25 +79,25 @@ In this project, there are 4 packages located in the src/test/java directory.
 
 In the src/test/java directory, you will find the searchAndBooking.feature,a scenario written in Gherkin, that provide a clear and understandable representation of test cases.
 
-![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/ff75ddbe-1d6b-4a0c-8de6-f0d069fb087f)
+![image](https://github.com/slidon95/Ryanair/assets/132678833/db108b37-1dd3-4ba7-955c-8de2b6bcd261)
 
 In the driver folder, you can locate the executable files for Chrome and Edge browsers.
 
-![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/cd536ee1-d15e-4485-ad73-bc56e36511f2)
+![image](https://github.com/slidon95/Ryanair/assets/132678833/4decb5d9-9b9e-465c-a006-0c637efc0841)
 
 On the target directory, you'll find the surefire_report containing the Allure reports generated for the tests.
 
-![Captura de ecrã 2024-02-19 192016](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/94c810eb-fef2-4530-98f0-e9a69564a3fa)
+![image](https://github.com/slidon95/Ryanair/assets/132678833/f6c92c73-d129-435d-93f9-0958a8bd66aa)
 
 Lastly, there is the pom.xml which serves for dependencies, build configurations, and plugins.
 
-![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/f9d2a952-84aa-465d-aaa6-c91902529979)
+![image](https://github.com/slidon95/Ryanair/assets/132678833/0a718bd9-9bfd-4f3d-ad8f-b8d776d92c22)
 
 ## Running Tests
 
 Ensure that the project is converted to TestNG, and then go to the project's root directory. Right-click on the project source, select 'Run As' and choose 'Maven Test'.
 
-![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/8bfae436-cbb4-4012-a0d9-cc5323fda172)
+![image](https://github.com/slidon95/Ryanair/assets/132678833/dab08d3b-7e52-472e-a383-777791f54328)
 
 
 ## Report
@@ -102,7 +107,7 @@ To view the results in Allure, open PowerShell and enter the command:
 ```bash
 allure serve .\target\surefire-reports
 ```
-![image](https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/1e110ee4-d450-4b99-b97b-59d7b6945b9a)
+![image](https://github.com/slidon95/Ryanair/assets/132678833/6e7e97f6-60e6-420c-a5e9-d95d4e892aab)
 
 
 ## DEMO
