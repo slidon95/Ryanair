@@ -114,9 +114,12 @@ allure serve .\target\surefire-reports
 
 The dynamic automated test is designed for the DUB to STN flight. This allows you to include any desired number of children and adults, as well as choose a date within a range of one year and one month. This flexibility is based on the observation that purchasing a ticket is only feasible within this specific timeframe.
 
-https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/f8f21883-667a-4768-8cf7-f47b8e908814
+
+https://github.com/slidon95/Ryanair/assets/132678833/bec067bc-f565-4869-b196-2e2d6df3e012
+
 
 In the automated test, I have integrated error exceptions for both past dates and dates exceeding one year and one month into the future.
 
-https://github.com/RyanairLabs/qa-web-challenge-slidon95/assets/132678833/d3da5e97-ab8b-4ea6-9037-0ddd8c5598c3
+
+https://github.com/slidon95/Ryanair/assets/132678833/24e3ee82-2774-473b-8cb3-797fa3bb0e7d
 
